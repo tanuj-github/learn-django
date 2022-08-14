@@ -8,7 +8,7 @@ on:
 jobs:
   test-lint:
     name: Test and Lint
-    runs-on: ubuntu-20.04 # OS that is gonna run the job
+    runs-on: ubuntu-latest # OS that is gonna run the job
     steps:
       - 
         name: Login to Docker Hub
